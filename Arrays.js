@@ -26,18 +26,21 @@ console.log(arr3.sort());
 //Console the array without duplicates, and console another array that only contains the duplicates
 //var arr = ["apple", "mango", "apple", "orange", "mango", "mango"];
 var arr = ["apple", "mango", "apple", "orange", "mango", "mango"];
-// console.log [...new (set(arr))];
+let newArr= [...new Set(arr)];
+ console.log(newArr);
 
 //5.Write a JS script to search for the following word in the array.
 4
 //If the word is present, console it else console "the search word was not found"
 //let arr5 = ["the", "way", "x", 4, 23];
 let arr5 = ["the", "way", "x", 4, 23];
+console.log(arr5.indexoffour())
 
 
 
 //6.Write a JS script to sort the following string
 //let word = "lufituaeb"
 let word = "lufituaeb"
-console.log(word.sort());
+let r= word.sort();
+console.log(r)
 
